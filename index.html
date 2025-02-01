@@ -20,26 +20,6 @@
     <!----------------------------------- start sidebar------------------------------------>
 
     <div class="sidebar">
-      <div class="sidebar-nav">
-        <div class="logo">
-          <a href=""><img src="/assets/logo.png" alt="" srcset="" /></a>
-        </div>
-        <ul>
-          <li>
-            <a href="">
-              <span><i class="fa-solid fa-house"></i></span>
-              <span>Home</span>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <span><i class="fa-solid fa-manifying"></i></span>
-              <span>Search</span>
-            </a>
-          </li>
-        </ul>
-      </div>
-
       <div class="sidebar-nav" box2>
         <ul>
           <li>
@@ -51,18 +31,18 @@
           <li>
             <div class="sidebar-scroll">
               <div class="create-playlist">
-                <h4>Create your frist playlist</h4>
-                <p>It's easy, we'll heip you</p>
+                <h4>Create your first playlist</h4>
+                <p>It's easy, we'll help you</p>
                 <button>Create playlist</button>
               </div>
               <div class="create-playlist">
-                <h4>Create your frist playlist</h4>
-                <p>It's easy, we'll heip you</p>
+                <h4>Create your first playlist</h4>
+                <p>It's easy, we'll help you</p>
                 <button>Create playlist</button>
               </div>
               <div class="create-playlist">
-                <h4>Create your frist playlist</h4>
-                <p>It's easy, we'll heip you</p>
+                <h4>Create your first playlist</h4>
+                <p>It's easy, we'll help you</p>
                 <button>Create playlist</button>
               </div>
             </div>
@@ -74,7 +54,7 @@
             <li>
               <a href="">Legal</a>
               <a href="">Safety & Privacy Center</a>
-              <a href=""> Privacy Pollicy</a>
+              <a href="">Privacy Policy</a>
             </li>
           </ul>
           <ul>
@@ -96,108 +76,190 @@
     <div class="hamburger" onclick="toggleSidebar()">
       <i class="ri-menu-line"></i>
     </div>
-    
+
     <!----------------------------------- end sidebar------------------------------------>
     <!----------------------------------- start main------------------------------------>
+    <div class="top-nav">
+      <nav class="spotify-navbar">
+        <div class="nav-left">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg"
+            alt="Spotify Logo"
+            class="logo"
+          />
+          <div class="nav-item">
+            <i class="home-icon"></i>
+          </div>
+          <input
+            type="text"
+            placeholder="What would you like to listen to or watch?"
+            class="search-bar"
+          />
+        </div>
+
+        <div class="nav-right">
+          <a href="#" class="nav-link">Premium</a>
+          <a href="#" class="nav-link">Support</a>
+          <a href="#" class="nav-link">Download</a>
+          <span class="divider"></span>
+          <a href="#" class="nav-link">Install the app</a>
+          <a href="#" class="nav-link">Sign Up</a>
+          <button class="login-button">Log in</button>
+        </div>
+      </nav>
+    </div>
+
     <div class="main-section">
-      <div class="top-nav">
-        <div class="prev-btn">
-          <button><i class="fa-solid fa-chevron-right"></i></button>
-          <button><i class="fa-solid fa-chevron-left"></i></button>
-        </div>
-        <div class="login-btn">
-          <button class="sign-up">Sign Up</button>
-          <button class="logIn">LogIn</button>
-        </div>
-      </div>
-      <div class="spotify-playlist">
-        <h2>Popular Album</h2>
-        <div class="card">
-          <div class="item">
-            <img src="/assets/item-6.jpg" alt="" srcset="" />
-            <div class="play-btn">
-              <span><i class="ri-play-fill"></i></span>
-            </div>
-            <h4>ANIMAL</h4>
-            <p>Manan bhardwaj, Vishal Mishra, jeani</p>
+      <div class="popular-artists">
+        <h2>
+          Popular Artists <span><a href="#">See all</a></span>
+        </h2>
+        <div class="artist-list">
+          <div class="artist">
+            <img
+              src="https://i.scdn.co/image/ab676161000051740ca7530f0c294c61010b6568"
+              alt="A.L.A"
+            />
+            <p class="name">A.L.A</p>
+            <p class="role">Artist</p>
           </div>
-          <div class="item">
-            <img src="/assets/item-7.jpg" alt="" srcset="" />
-            <div class="play-btn">
-              <span><i class="ri-play-fill"></i></span>
-            </div>
-            <h4>ANIMAL</h4>
-            <p>Manan bhardwaj, Vishal Mishra, jeani</p>
+          <div class="artist">
+            <img
+              src="	https://i.scdn.co/image/ab67616100005174ccb590c79955262102b6a5d0"
+              alt="Samara"
+            />
+            <p class="name">Samara</p>
+            <p class="role">Artist</p>
           </div>
-          <div class="item">
-            <img src="/assets/item-8.jpg" alt="" srcset="" />
-            <div class="play-btn">
-              <span><i class="ri-play-fill"></i></span>
-            </div>
-            <h4>ANIMAL</h4>
-            <p>Manan bhardwaj, Vishal Mishra, jeani</p>
+          <div class="artist">
+            <img
+              src="https://i.scdn.co/image/ab676161000051743356d76683fee723537247f1"
+              alt="ElGrandeToto"
+            />
+
+            <p class="name">ElGrandeToto</p>
+            <p class="role">Artist</p>
           </div>
-          <div class="item">
-            <img src="/assets/item-9.jpg" alt="" srcset="" />
-            <div class="play-btn">
-              <span><i class="ri-play-fill"></i></span>
-            </div>
-            <h4>ANIMAL</h4>
-            <p>Manan bhardwaj, Vishal Mishra, jeani</p>
+
+          <div class="artist">
+            <img
+              src="https://i.scdn.co/image/ab676161000051749e528993a2820267b97f6aae"
+              alt="Stou"
+            />
+
+            <p class="name">The Weeknd</p>
+            <p class="role">Artist</p>
           </div>
-          <div class="item">
-            <img src="/assets/item-10.jpg" alt="" srcset="" />
-            <div class="play-btn">
-              <span><i class="ri-play-fill"></i></span>
-            </div>
-            <h4>ANIMAL</h4>
-            <p>Manan bhardwaj, Vishal Mishra, jeani</p>
+          <div class="artist">
+            <img
+              src="	https://i.scdn.co/image/ab67616100005174acbb63db004e0bf4bc3a2d5d"
+              alt="Billie Eilish"
+            />
+            <p class="name">Stou</p>
+            <p class="role">Artist</p>
+          </div>
+          <div class="artist">
+            <img
+              src="https://i.scdn.co/image/ab676161000051744a21b4760d2ecb7b0dcdc8da"
+              alt="Billie Eilish"
+            />
+            <p class="name">Billie Eilish</p>
+            <p class="role">Artist</p>
           </div>
         </div>
       </div>
 
       <div class="spotify-playlist">
-        <h2>Trending Episodes</h2>
+        <h2>Popular Albums and singles</h2>
         <div class="card">
           <div class="item">
-            <img src="/assets/item-1.jpg" alt="" srcset="" />
+            <img
+              src="https://i.scdn.co/image/ab67616d00001e02f8780ab88d1a7fc2614eb5ed"
+              alt=""
+              srcset=""
+            />
             <div class="play-btn">
               <span><i class="ri-play-fill"></i></span>
             </div>
-            <h4>ANIMAL</h4>
-            <p>Manan bhardwaj, Vishal Mishra, jeani</p>
+            <h4>Hybrid</h4>
+            <p>A.L.A</p>
           </div>
           <div class="item">
-            <img src="/assets/item-2.jpg" alt="" srcset="" />
+            <img src="	https://i.scdn.co/image/ab67616d00001e02d9e415b57b3d6e215129d568" alt="" srcset="" />
             <div class="play-btn">
               <span><i class="ri-play-fill"></i></span>
             </div>
-            <h4>ANIMAL</h4>
-            <p>Manan bhardwaj, Vishal Mishra, jeani</p>
+            <h4>SALGOAT</h4>
+            <p>ElGrandeToto</p>
           </div>
           <div class="item">
-            <img src="/assets/item-3.jpg" alt="" srcset="" />
+            <img src="https://i.scdn.co/image/ab67616d00001e021cba1b605a26f7d7229246ec" alt="" srcset="" />
             <div class="play-btn">
               <span><i class="ri-play-fill"></i></span>
             </div>
-            <h4>ANIMAL</h4>
-            <p>Manan bhardwaj, Vishal Mishra, jeani</p>
+            <h4>Balance</h4>
+            <p>A.L.A</p>
           </div>
           <div class="item">
-            <img src="/assets/item-4.jpg" alt="" srcset="" />
+            <img src="https://i.scdn.co/image/ab67616d00001e025d1e534d6e5138bc49ecaa5e" alt="" srcset="" />
             <div class="play-btn">
               <span><i class="ri-play-fill"></i></span>
             </div>
-            <h4>ANIMAL</h4>
-            <p>Manan bhardwaj, Vishal Mishra, jeani</p>
+            <h4>Zayn</h4>
+            <p>Samara</p>
           </div>
           <div class="item">
-            <img src="/assets/item-5.jpg" alt="" srcset="" />
+            <img src="https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62" alt="" srcset="" />
             <div class="play-btn">
               <span><i class="ri-play-fill"></i></span>
             </div>
-            <h4>ANIMAL</h4>
-            <p>Manan bhardwaj, Vishal Mishra, jeani</p>
+            <h4>HIT ME HARD AND SOFT</h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="spotify-playlist">
+        <h2>Populair radio</h2>
+        <div class="card">
+          <div class="item">
+            <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/0WfKB7Lqqykt6gdtirYJUm/en" alt="" srcset="" />
+            <div class="play-btn">
+              <span><i class="ri-play-fill"></i></span>
+            </div>
+            <h4>Samara Radio</h4>
+            <p>With A.L.A, Stou, Young Rz and more</p>
+          </div>
+          <div class="item">
+            <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/3MKpGPhBp9KeXjGooKHNDX/en" alt="" srcset="" />
+            <div class="play-btn">
+              <span><i class="ri-play-fill"></i></span>
+            </div>
+            <h4>A.L.A Radio</h4>
+            <p>With Stou, El Castro, Young Rz and more</p>
+          </div>
+          <div class="item">
+            <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/5nBnuz27wNFubJjmRTRNPC/en" alt="" srcset="" />
+            <div class="play-btn">
+              <span><i class="ri-play-fill"></i></span>
+            </div>
+            <h4>Dhalma Radio</h4>
+            <p>With Ktyb, 4lfa, Naqqa and more</p>
+          </div>
+          <div class="item">
+            <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/6AqjzYRx9TeJDzKhkSSHFx/en" alt="" srcset="" />
+            <div class="play-btn">
+              <span><i class="ri-play-fill"></i></span>
+            </div>
+            <h4>Cheb Hasni Radio</h4>
+            <p>With Cheb Akil, Zahouania, Cheb Azzedine and more</p>
+          </div>
+          <div class="item">
+            <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/44qTyRXwTktHVC0X1FGnJn/en" alt="" srcset="" />
+            <div class="play-btn">
+              <span><i class="ri-play-fill"></i></span>
+            </div>
+            <h4>NORDO Radio</h4>
+            <p>With Mortadha Ftiti, Kaso, JenJoon and more</p>
           </div>
         </div>
       </div>
@@ -213,7 +275,7 @@
               </ul>
             </div>
             <div class="footer-column">
-              <div>Communites</div>
+              <div>Communities</div>
               <ul class="col-links">
                 <li><a href="">For Artists</a></li>
                 <li><a href="">Developers</a></li>
@@ -242,7 +304,7 @@
 
       <hr />
       <div>
-        <p class="copyright">&copy; 2024 spotify AB</p>
+        <p class="copyright">&copy; 2024 Spotify AB</p>
       </div>
     </div>
     <div class="preview">
@@ -254,14 +316,13 @@
         </p>
       </div>
       <div class="button">
-        <button>Sign Up free</button>
+        <button>Sign Up Free</button>
       </div>
     </div>
   </body>
   <script>
     function toggleSidebar() {
-      document.querySelector('.sidebar').classList.toggle('active');
-  }
-  
+      document.querySelector(".sidebar").classList.toggle("active");
+    }
   </script>
 </html>
